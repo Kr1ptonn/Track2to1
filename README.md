@@ -1,10 +1,13 @@
 # Track2to1
 Track2to1 Generator/Converter in Python made by Kr1ptonn
 
-This code is only created for Educational purposes only!
-I do not encourage/be part of any illegal activity!
+REQUIREMENTS:
+You need to download python onto your computer and open cmd and type: pip3 install pyperclip (or pip install pyperclip)
 
-Use it on ur own risk!
+ATTENTION:
+This software is completed by doing legal searches on Google. Me as the individ that i made this I don't participate in any illegal stuff that people will make with my code, anyways you can find the information how to make this in entire google for FREE.
 
-U need to have python installed in your computer
-After you've installed python, go to cmd and paste: pip install pyperclip or pip3 install pyperclip
+Use it at your own risk, if you don't know what to do with it please don't download!
+
+Thanks, Kr1ptonn
+
