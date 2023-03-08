@@ -20,7 +20,11 @@ class Track2to1:
         pan = track2[0:16]
         service_code = track2[21:24]
         fixed_track = track2.removeprefix(track2[0:24])
-        final_track = f'B{pan}^{card_last.upper()}/{card_name.upper()}^{card_exp}{service_code}{service10}{fixed_track}{service6}^{pin}'
+        if(pin == ""):
+            final_track = f'B{pan}^{card_last.upper()}/{card_name.upper()}^{card_exp}{service_code}{service10}{fixed_track}{service6}'
+        else:
+            final_track = f'B{pan}^{card_last.upper()}/{card_name.upper()}^{card_exp}{service_code}{service10}{fixed_track}{service6}^{pin}'
+            
         print(final_track)
         pyperclip.copy(final_track)
         print("\nCopied!")
